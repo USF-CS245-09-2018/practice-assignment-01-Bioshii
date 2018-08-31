@@ -1,4 +1,4 @@
-package edu.usfca.cs.cs245;
+//package edu.usfca.cs.cs245;
 
 public class Practice1Test {
 
@@ -71,7 +71,7 @@ public class Practice1Test {
 	/*
 	 * This is a stub for testing the timing.
 	 * - Use it to compare recursion vs. iteration.
-	 * - Wall clock speed is sufficient for now. 
+	 * - Wall clock speed is sufficient for now.
 	 */
 	public void testPerformance() {
 		System.out.println("Advanced: implement the speed test.");
@@ -83,7 +83,7 @@ public class Practice1Test {
 	 */
 	public static void main(String[] args) {
 		Practice1Test test = new Practice1Test();
-		
+
 		test.testCorrectness();
 		test.testPerformance();
 	}

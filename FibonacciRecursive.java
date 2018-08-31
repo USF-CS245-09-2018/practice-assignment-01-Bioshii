@@ -1,9 +1,9 @@
 public class FibonacciRecursive implements Fibonacci {
-	public int Fibonacci(int n) {
+	public int fibonacci(int n) {
 		if (n == 0 || n == 1) {
 			return 1;
 		} else {
-			return Fibonacci(n-1) + Fibonacci(n-2);
+			return fibonacci(n-1) + fibonacci(n-2);
 		}
 	}
 }
